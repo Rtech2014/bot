@@ -1,0 +1,210 @@
+[
+    {
+        "documentName": "sample_6_2022-05-06_17:55:23.9.txt",
+        "document": "I need a audi car in black color",
+        "tokens": [
+            {
+                "text": "audi",
+                "start": 9,
+                "end": 13,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "MAKE"
+            },
+            {
+                "text": "black",
+                "start": 21,
+                "end": 26,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "COLOR"
+            }
+        ],
+        "relations": [
+            {
+                "child": 6,
+                "head": 3,
+                "relationLabel": "VEHICLESEARCH",
+                "propertiesList": []
+            }
+        ]
+    },
+    {
+        "documentName": "sample_5_2022-05-06_17:55:23.9.txt",
+        "document": "I need bmw car above 5000 dollars",
+        "tokens": [
+            {
+                "text": "bmw",
+                "start": 7,
+                "end": 10,
+                "token_start": 2,
+                "token_end": 2,
+                "entityLabel": "MAKE"
+            },
+            {
+                "text": "5000 dollars",
+                "start": 21,
+                "end": 33,
+                "token_start": 5,
+                "token_end": 6,
+                "entityLabel": "PRICE"
+            }
+        ],
+        "relations": [
+            {
+                "child": 5,
+                "head": 2,
+                "relationLabel": "VEHICLESEARCH",
+                "propertiesList": []
+            }
+        ]
+    },
+    {
+        "documentName": "sample_4_2022-05-06_17:55:23.9.txt",
+        "document": "I need to do a test drive on bmw 200s",
+        "tokens": [
+            {
+                "text": "test drive",
+                "start": 15,
+                "end": 25,
+                "token_start": 5,
+                "token_end": 6,
+                "entityLabel": "TEST"
+            },
+            {
+                "text": "bmw",
+                "start": 29,
+                "end": 32,
+                "token_start": 8,
+                "token_end": 8,
+                "entityLabel": "MAKE"
+            },
+            {
+                "text": "200s",
+                "start": 33,
+                "end": 37,
+                "token_start": 9,
+                "token_end": 9,
+                "entityLabel": "MODEL"
+            }
+        ],
+        "relations": [
+            {
+                "child": 8,
+                "head": 5,
+                "relationLabel": "APPOINMENTBOOK",
+                "propertiesList": []
+            },
+            {
+                "child": 9,
+                "head": 5,
+                "relationLabel": "APPOINMENTBOOK",
+                "propertiesList": []
+            }
+        ]
+    },
+    {
+        "documentName": "sample_3_2022-05-06_17:55:23.8.txt",
+        "document": "Can you show me the lowest audi a3 car?",
+        "tokens": [
+            {
+                "text": "audi",
+                "start": 27,
+                "end": 31,
+                "token_start": 6,
+                "token_end": 6,
+                "entityLabel": "MAKE"
+            },
+            {
+                "text": "a3",
+                "start": 32,
+                "end": 34,
+                "token_start": 7,
+                "token_end": 7,
+                "entityLabel": "MODEL"
+            }
+        ],
+        "relations": [
+            {
+                "child": 7,
+                "head": 6,
+                "relationLabel": "VEHICLESEARCH",
+                "propertiesList": []
+            }
+        ]
+    },
+    {
+        "documentName": "sample_2_2022-05-06_17:55:23.8.txt",
+        "document": "I need a audi car below 2000 dollars",
+        "tokens": [
+            {
+                "text": "audi",
+                "start": 9,
+                "end": 13,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "MAKE"
+            },
+            {
+                "text": "2000 dollars",
+                "start": 24,
+                "end": 36,
+                "token_start": 6,
+                "token_end": 7,
+                "entityLabel": "PRICE"
+            }
+        ],
+        "relations": [
+            {
+                "child": 6,
+                "head": 3,
+                "relationLabel": "VEHICLESEARCH",
+                "propertiesList": []
+            }
+        ]
+    },
+    {
+        "documentName": "sample_1_2022-05-06_17:55:23.8.txt",
+        "document": "I need audi a3 and also prepare it for test drive ",
+        "tokens": [
+            {
+                "text": "test drive",
+                "start": 39,
+                "end": 49,
+                "token_start": 9,
+                "token_end": 10,
+                "entityLabel": "TEST"
+            },
+            {
+                "text": "a3",
+                "start": 12,
+                "end": 14,
+                "token_start": 3,
+                "token_end": 3,
+                "entityLabel": "MODEL"
+            },
+            {
+                "text": "audi",
+                "start": 7,
+                "end": 11,
+                "token_start": 2,
+                "token_end": 2,
+                "entityLabel": "MAKE"
+            }
+        ],
+        "relations": [
+            {
+                "child": 3,
+                "head": 9,
+                "relationLabel": "APPOINMENTBOOK",
+                "propertiesList": []
+            },
+            {
+                "child": 9,
+                "head": 2,
+                "relationLabel": "APPOINMENTBOOK",
+                "propertiesList": []
+            }
+        ]
+    }
+]

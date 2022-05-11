@@ -1,0 +1,36 @@
+[
+    {
+        "document": "this is a test",
+        "annotation": [
+            {
+                "start": 0,
+                "end": 4,
+                "label": "TEST",
+                "test": "this"
+            },
+            {
+                "start": 0,
+                "end": 4,
+                "label": "TEST",
+                "test": "test"
+            }
+        ]
+    },
+    {
+        "document": "this is a test",
+        "annotation": [
+            {
+                "start": 0,
+                "end": 4,
+                "label": "TEST",
+                "test": "this"
+            },
+            {
+                "start": 0,
+                "end": 4,
+                "label": "TEST",
+                "test": "best"
+            }
+        ]
+    }
+]

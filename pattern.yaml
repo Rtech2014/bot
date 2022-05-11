@@ -1,0 +1,60 @@
+---
+entityPatterns:
+  singleEntityPatterns:
+  - makeOnly
+  - modelOnly
+  - typeOnly
+  - priceOnly
+  - bookingOnly
+  multipleEntityPatterns:
+    entities:
+    - name: makeModel
+      relation: vehicleSearch
+    - name: makeModel
+      relation: vehicleSearch
+    - name: makeModel
+      relation: vehicleSearch
+    - name: makePrice
+      relation: vehicleSearch
+    - name: makeType
+      relation: vehicleSearch
+    - name: makeBooking
+      relation: vehicleSearch
+    - name: modelType
+      relation: apppoinmentBooking
+    - name: modelPrice
+      relation: vehicleSearch
+    - name: typePrice
+      relation: vehicleSearch
+    - name: typeBooking
+      relation: vehicleSearch
+    - name: priceBooking
+      relation: apppoinmentBooking
+    - name: makeModelType
+      relation: vehicleSearch
+    - name: makeModelPrice
+      relation: vehicleSearch
+    - name: makeModelBooking
+      relation: apppoinmentBooking
+    - name: makeTypePrice
+      relation: vehicleSearch
+    - name: makeTypeBooking
+      relation: apppoinmentBooking
+    - name: makePriceBooking
+      relation: apppoinmentBooking
+    - name: modelTypePricing
+      relation: vehicleSearch
+    - name: modelTypeBooking
+      relation: apppoinmentBooking
+    - name: modelPriceBooking
+      relation: apppoinmentBooking
+    - name: typePriceBooking
+      relation: apppoinmentBooking
+    - name: makeModelTypePrice
+      relation: vehicleSearch
+    - name: makeModelPriceBooking
+      relation: apppoinmentBooking
+    - name: makeModelTypePriceBooking
+      relation: apppoinmentBooking
+
+

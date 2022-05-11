@@ -1,0 +1,31 @@
+---
+entitiesSlots:
+  - name: booking
+    values:
+      - test drive
+      - visit your store
+      - book appointment
+  - name: make
+    values:
+      - audi
+      - bmw
+  - name: model
+    values:
+      - a3
+      - q7
+      - a7
+      - 200s
+      - 300s
+  - name: price
+    values:
+      - 2000 dollars
+      - 5000 dollars
+      - 6000 dollars
+      - 80000 dollars
+      - $30000
+      - 50000$
+  - name: brand
+    values:
+      - new
+      - used
+      - certified

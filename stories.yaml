@@ -1,0 +1,30 @@
+---
+stories:
+  - name: makeOnly
+    story:
+      - Could you show me the (make) in your store?
+      - I need a (make) car.
+      - I am planning to buy a (make) car, please show me some of its models.
+      - Do you have (make)?
+      - Hey, show me the (make) cars.
+      - Display all the (make) in your store
+      - Can i know the details about the (make) cars?
+      - I need to know the details about all the (make) cars.
+      - Show me the (make) cars
+      - I wanted to know all the information about (make) cars.
+      - Hey, very eager to buy the (make) car, Could you Display some of those models?
+  - name: modelOnly
+    story:
+      - Could you show me the (model) models in your store?
+      - Display the (model) model
+      - Do you have (model) models?
+      - Hey, show me the (model) models.
+      - Having any (model) in this brand?
+      - Is there any (model) models in your store?
+  
+# Eg. Make (audi)
+# Could you show me the audi in your store?
+# Could you show me the bmw in your store?
+# Eg. Model (a3)
+# Could you show the a3 models in your store?
+# Do you have a3 models?
